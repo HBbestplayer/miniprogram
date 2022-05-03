@@ -1,0 +1,17 @@
+<!--pages/demo3/demo3.wxml-->
+<!-- 后期可能还需要加上picker选择器去选择哪个摄像头的图片 -->
+<view class="big">点击图片可放大查看</view>
+
+<view class="container">
+    <swiper class='bannerSwiper' previous-margin="54rpx" next-margin='54rpx' indicator-dots="true" indicator-color='#B5B5B5' indicator-active-color='#fff' interval='3000' duration='500' bindchange='onChange' circular='true'>
+      <block wx:for="{{banner}}" wx:key="index">
+        <swiper-item>
+          <image class="{{index==xindex?'imageBanner':'imageBanner_small'}}" data-index="{{index}}" data-item="item" bindtap="clickImg" src="{{item}}"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+</view>
+<view class="image">
+<view >图片时间：{{time}}</view>
+<view hidden="{{tips}}">(提示：图片上会显示时间)</view>
+</view>

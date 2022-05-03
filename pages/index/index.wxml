@@ -1,0 +1,16 @@
+<image class='background' src="" mode="aspectFill">  <!--  https://d-paper.i4.cn/max/2017/05/09/10/1494298510204_701551.jpeg -->
+</image>
+<view class="container">
+  <view class="logoinfo">
+    <image class="logo-avatar" src="{{scr}}" background-size="cover"></image>
+    <text class="logo-nickname">智慧监控</text>
+  </view>
+  <view class="usermotto">
+    <button bindtap="btnStart">实时预览</button>
+    <button style="margin-top: 30px;" bindtap="btnIntroduce">使用说明</button>
+  </view>
+</view>
+
+
+
+  

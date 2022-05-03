@@ -1,0 +1,21 @@
+<!--pages/explanation/explanation.wxml-->
+<image class='background' src="" mode="aspectFill"></image>
+<text>欢迎使用智慧农业大棚小程序！(๑╹◡╹)ﾉ"""
+
+
+使用说明：
+
+小程序提供实时预览和定时图片展示两种功能，其中如果需要保存图片便于观察，请在定时图片展示中点击图片放大后手动保存。后续还会继续开发新的功能并加以完善
+
+修改用户密码请在个人中心处修改，如果进入密码修改页但不想修改请从取消修改按钮返回个人中心
+</text>
+<text wx:for="{{3}}" wx:key="index">\n</text>
+可能出现的问题：
+<text>
+
+  如果遇到实时预览显示参数错误，请尝试从首页的实时预览按键进入即可解决，如果仍无法解决请点击下方的备用播放源进行查看↓
+
+
+
+</text>
+<button bindtap="beiyong">备用播放源</button>

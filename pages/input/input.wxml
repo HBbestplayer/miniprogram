@@ -1,0 +1,16 @@
+<!--pages/input/input.wxml-->
+<text wx:for="{{3}}" wx:key="index">\n</text>
+<view class="title">
+  
+</view>
+<view  class="yonghu">
+  <form bindsubmit="btnSub">
+<view><text space="ensp">    序列号:</text>
+<input class="inputText" name="title" placeholder=" 请输入设备序列号" focus></input></view>
+<text>\n</text>
+<view><text space="ensp">    通道号:</text>
+<input class="inputText" name="author" placeholder=" 请输入设备通道号"></input></view>
+<button type="primary" form-type="submit">连接</button>
+<button form-type="reset"> 重置</button>
+</form>
+</view>

@@ -1,0 +1,179 @@
+/* pages/demo2/demo2.wxss */
+.a{
+  width: 710rpx;
+  height:100rpx;
+  display:flex;
+  align-items: center;
+  box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.15);
+  border-radius: 40rpx;/* 边框圆角 */
+  position:absolute;   /* 设置盒子的具体位置，用top，bottom，left，right控制 */
+  top:280rpx;
+  margin-left: 20rpx;
+  }
+  .b{
+    margin: 20rpx; /* margin适用于上下左右留白，可以填最多4个值，中间用空格隔开 */
+    margin-bottom:60rpx;
+  }
+  .c{
+    width: 710rpx;
+    height:100rpx;
+    display:flex;
+    align-items: center;
+    box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.15);
+    border-radius: 40rpx;/* 边框圆角 */
+    position:absolute;   /* 设置盒子的具体位置，用top，bottom，left，right控制 */
+    top:400rpx;  
+    margin-left: 20rpx;
+  }
+  .d{
+    width: 710rpx;
+    height:100rpx;
+    display:flex;
+    align-items: center;
+    box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.15);
+    border-radius: 40rpx;/* 边框圆角 */
+    position:absolute;   /* 设置盒子的具体位置，用top，bottom，left，right控制 */
+    top:520rpx;  
+    margin-left: 20rpx;
+  }
+  .arrow{  /*  弄右箭头 */
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #999;
+    border-right: 2px solid #999;
+    position: absolute;
+    right: 20px;
+    transform: rotate(45deg);
+     top:20px;
+  }
+  .btn1{
+    display: flex;
+    justify-content: center;
+    margin-top: 700rpx;
+    
+  }
+  .bg {
+    position: relative;
+    height: 250rpx;
+    background-color:#489B81;
+    overflow: hidden;
+  }
+  
+  .head {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .headIcon {
+    display: flex;
+    justify-content: center;
+    margin: 0 ;
+    text-align: center;
+    
+  }
+  .userinfo-nickname {
+
+    text-align: center;
+    color:black;
+  }
+  .login {
+    display: flex;
+    color: #fff;
+    font-size: 15px;   /* 字符框高度  */
+    justify-content: center;
+  }
+  
+  .button {
+    position: absolute;
+    margin-bottom: auto;
+    font-size: 14px;
+  }
+  .iconWx{
+    width:45rpx;
+    height: 36rpx;
+    position: relative;
+    left: 10rpx; 
+  }
+  .modal-mask {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.5;
+    overflow: hidden;
+    color: #fff;
+  }
+  .modal-dialog {
+    width: 72%;
+    position: absolute;
+    top: 30%;
+    left: 14%;
+    background: #fff;
+    border-radius: 12rpx;
+  }
+  .modal-content{
+    text-align: center;
+    
+  }
+
+    .modal-content .show{
+      width: 450rpx;
+  height: 323rpx;
+  display: block;
+  margin: 0 auto;
+  margin-top: -118rpx;
+  z-index: 10000;
+    }
+    
+  
+  .iconPhone{
+    width:56rpx;
+    height: 56rpx;
+    padding-right: 15rpx;
+  }
+  .modal-content view:nth-of-type(2){    /*:nth-of-type(n) , 选择器匹配属于父元素的特定类型的第 N 个子元素的每个元素  */
+    font-size: 35rpx;
+    color: #333333;
+    line-height: 1;
+  }
+  .modal-content view:nth-of-type(3){
+    font-size: 26rpx;
+    color: #9c9c9c;
+    margin: 15rpx 0 29rpx;
+    line-height: 1;
+  }
+  .modal-content button:nth-of-type(1){
+    width: 80%;
+    height: 80rpx;
+    border-radius: 60rpx;
+    margin: 0 auto 80rpx;
+    font-size: 30rpx;
+    color: #fff;
+    background: #31cc32;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .modal-content button:nth-of-type(1)::after{
+    border: none;
+  }
+  .modal-content  .wxLogin{
+    font-size: 26rpx;
+    color: #424242;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 38rpx 0 80rpx;
+  }
+  button::after{
+    border: none;
+  }
+
+  

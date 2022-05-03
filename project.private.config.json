@@ -1,0 +1,127 @@
+{
+  "setting": {
+    "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/fengmian/fengmian",
+          "pathName": "pages/fengmian/fengmian",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/demo/demo",
+          "pathName": "pages/demo/demo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/watch/watch",
+          "pathName": "pages/watch/watch",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/demo2/demo2",
+          "pathName": "pages/demo2/demo2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/watch/watch",
+          "pathName": "pages/watch/watch",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/demo3/demo3",
+          "pathName": "pages/demo3/demo3",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/input/input",
+          "pathName": "pages/input/input",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/denglu/denglu",
+          "pathName": "pages/denglu/denglu",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/test/test",
+          "pathName": "pages/test/test",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/test1/test1",
+          "pathName": "pages/test1/test1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/test1/test1",
+          "pathName": "pages/test1/test1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/addID/addID",
+          "pathName": "pages/addID/addID",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/test2/test2",
+          "pathName": "pages/test2/test2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/explanation/explanation",
+          "pathName": "pages/explanation/explanation",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/demo3/demo3",
+          "pathName": "pages/demo3/demo3",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/logs/logs",
+          "pathName": "pages/logs/logs",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/demo2/demo2",
+          "pathName": "pages/demo2/demo2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/change/change",
+          "pathName": "pages/change/change",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "projectname": "miniprogram-1",
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html"
+}

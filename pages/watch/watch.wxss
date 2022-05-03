@@ -1,0 +1,46 @@
+/* pages/watch/watch.wxss */
+.video{
+  display: flex;
+  justify-content: center;
+  margin-top: 50rpx;
+ 
+}
+.picker{
+  width: 740rpx;
+  height:60rpx;
+  box-shadow: 0 0 30rpx rgba(0, 0, 0, 0.15);
+  border-radius: 30rpx;
+  margin-left: 5rpx;
+}
+.add{
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  margin-top: 100rpx;
+}
+page{
+  height:20%
+}
+.imagesize{
+display:flex;
+height: 100%;                       
+justify-content: center;
+align-items:center;
+margin-top: 200rpx;
+
+}
+.imagesize image { 
+ width:200rpx;
+ height:200rpx;
+ }
+.text{
+position: relative;
+top: 10rpx;
+}
+.background {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}

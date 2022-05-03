@@ -1,0 +1,62 @@
+
+  {
+    "pages": [
+      
+  "pages/cover/cover",
+  "pages/change/change",
+  "pages/Alternate_source/Alternate_source",
+  "pages/index/index",
+  "pages/watch/watch",
+  "pages/logs/logs",
+  "pages/person/person",
+  "pages/picture/picture",
+  "pages/input/input",
+  "pages/login/login",
+  "pages/explanation/explanation"
+ 
+  
+],
+  "plugins": {
+    "myPlugin": {
+      "version": "0.0.5",
+      "provider": "wx26dd070c090dfbdf"
+    }
+  },
+
+"window":{
+  "backgroundTextStyle":"dark",
+  "navigationBarBackgroundColor": "#489B81",
+  "navigationBarTitleText": "智慧农业大棚",
+  "navigationBarTextStyle":"white"
+  
+},
+"tabBar":{
+  "color":"#000000",
+  "backgroundColor":"#FFFFFF",
+  "selectedColor":"#489B81",
+  "borderStyle":"black",
+  "position":"bottom",
+  "list":[{
+    "pagePath":"pages/index/index",
+    "text":"首页",
+    "iconPath":"/images/首页4.png",
+    "selectedIconPath":"/images/首页.png"
+   } ,{
+     "pagePath":"pages/watch/watch",
+     "text":"实时",
+     "iconPath":"/images/监控.png",
+     "selectedIconPath":"/images/监控1.png"
+
+   },
+   {
+     "pagePath":"pages/person/person",
+     "text":"我的",
+     "iconPath":"/images/日志 1.png",
+     "selectedIconPath":"/images/日志2.png"
+
+   }]
+
+},
+"style": "v2",
+"sitemapLocation": "sitemap.json"
+}

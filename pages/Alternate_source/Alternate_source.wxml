@@ -1,0 +1,13 @@
+<!--pages/test2/test2.wxml-->
+<view class="text">
+<view >
+<text>备用播放源</text>
+</view>
+</view>
+<view class="live">
+<view >
+<video src="{{index?src2:src1}}"></video>
+</view>
+</view>
+<button bindtap="biaoqing">标清</button>
+<button bindtap="gaoqing">高清</button>

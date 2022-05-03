@@ -1,0 +1,49 @@
+<!--pages/demo2/demo2.wxml-->
+<view class="bg">
+  <view class="head">
+    <view class="headIcon">
+      <image src="{{userInfo.avatarUrl}}" style="width:70px;height:70px; border-radius: 50%;"></image>
+    </view>    
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindtap="getUserProfile"> 获取头像昵称 </button>
+<!--登录弹窗-->
+<!-- <view class="modal-mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+  <view class="modal-dialog" wx:if="{{showModal}}">
+  <view class="modal-content">
+    <view><image src='' class='show'></image>
+    </view>
+    <view>绑定手机号</view>
+    <view>请先绑定手机号在进行此操作</view>  
+    <button open-type='getPhoneNumber' bindgetphonenumber="getPhoneNumber">
+      <image src='/images/登陆.png' class='iconWx'></image>    --微信用户一键绑定
+     </button>
+  </view>
+</view> --> 
+</view>
+    <!-- 上面的代码是用于美观 -->
+<block>
+<view class="a" bindtap="picture">
+<image src="/images/存储.png" class='iconWx' ></image>
+<text class="b">
+定时图片展示
+</text>
+<view class='arrow'/>
+</view>
+<view class="c" bindtap="logs">
+<image src="/images/日志_jurassic.png" class='iconWx' ></image>
+<text class="b">
+修改密码
+</text>
+<view class='arrow'/>
+</view>
+<view class="d">
+<image src="/images/客服.png" class='iconWx' ></image>
+<text class="b">
+联系客服
+</text>
+<view class='arrow'/>
+</view>
+</block>
+
+<button bindtap="button" type="warn" class="btn1"  wx:if="{{condition}}">退出登录</button>

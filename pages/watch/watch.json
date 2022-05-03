@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "imou-player": "plugin://myPlugin/imou-player"
+  },
+  "navigationBarTitleText": "智慧农业大棚实时预览"
+}
