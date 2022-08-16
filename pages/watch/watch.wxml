@@ -4,11 +4,11 @@
     <picker bindchange="bindPickerChange" class="video" value="{{index}}" range="{{array}}" value>实时监控</picker>
     <view class="picker">
       <view class="text">
-        当前选择：{{array[index]}}
+         当前选择：{{array[index]}}
       </view>
     </view>
 
-    <view>
+    <view class="watch">
       <imou-player src="{{src}}" kitToken='{{kitToken}}' autoplay="true" controls="true">
       </imou-player>
     </view>

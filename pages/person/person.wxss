@@ -13,6 +13,8 @@
   .b{
     margin: 20rpx; /* margin适用于上下左右留白，可以填最多4个值，中间用空格隔开 */
     margin-bottom:60rpx;
+    font-size: smaller ;
+    font-weight:600;
   }
   .c{
     width: 710rpx;
@@ -75,7 +77,7 @@
   .userinfo-nickname {
 
     text-align: center;
-    color:black;
+    color:rgb(61, 60, 60);
   }
   .login {
     display: flex;
@@ -87,7 +89,7 @@
   .button {
     position: absolute;
     margin-bottom: auto;
-    font-size: 14px;
+    font-size: 5px;
   }
   .iconWx{
     width:45rpx;

@@ -1,23 +1,23 @@
 <!--pages/denglu/denglu.wxml-->
 <image class='background' src="{{src}}" mode="aspectFill"></image>
 <view class='header'>
-    <text>WELCOME</text>
-  </view>
-  <view class='litheader'>
-    <text>请先登录</text>
-  </view>
-<view class="container">
-<!-- <view class="yonghu"> -->
-  <view>
-<text space="ensp">    </text>
-<input  placeholder=" 请输入账号" bindinput="getAccount" placeholder-style="color:black;" ></input>
-<text>\n</text>
-<text space="ensp">    </text>
-<input  placeholder=" 请输入密码" bindinput="getCode" placeholder-style="color:black;" password ></input>
-
-<text>\n</text>
-<!-- <image src='{{defaultType? "/images/眼睛1.png": "/images/眼睛.png"}}' class='imageStyle' bindtap='eyeStatus'></image> -->
-<button type="primary" bindtap="login">登录</button>
+  <text>WELCOME</text>
 </view>
-<!-- </view> -->
+<view class='litheader'>
+  <text>请先登录</text>
+</view>
+<view class="container">
+  <!-- <view class="yonghu"> -->
+  <view class="login_windows">
+    <!-- <text >账号</text> -->
+    <view class="textstyle"><text></text></view>
+    <input class="input" placeholder="  请输入账号" bindinput="getAccount" placeholder-style="color:glay;"></input>
+    <text>\n</text>
+    <text space="ensp"></text>
+    <input placeholder="  请输入密码" bindinput="getCode" placeholder-style="color:glay;" password></input>
+    <text>\n</text>
+    <!-- <image src='{{defaultType? "/images/眼睛1.png": "/images/眼睛.png"}}' class='imageStyle' bindtap='eyeStatus'></image> -->
+    <button type="primary" bindtap="login">登录</button>
+  </view>
+  <!-- </view> -->
 </view>

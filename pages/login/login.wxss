@@ -3,20 +3,10 @@
 page{
   height:100%;
 }
-input{
-  border: 1px  solid black;
-  width: 300px;
-  height: 40px;
-  margin: 10px 36px ;
-  border-radius: 25rpx;
- 
-}
-.yonghu{
+.textstyle{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 10px solid #489B81;
-  border-radius:30rpx
+  flex-direction: row;
+  margin-left: 10px;
 }
 .background {
   width: 100%;
@@ -25,16 +15,19 @@ input{
   background-size:100% 100%;
   z-index: -1;
 }
+input{
+  /* border: 1px  solid black; */
+  border-style:outset;
+  
+  width: 90%;
+  height: 40px;
+  margin: 10px 36px ;
+  border-radius: 25rpx;
+  font-size: 14px;
+  font-family: '隶书';
 
-
- .imageStyle {
-  width: 41rpx;
-  height: 41rpx;
-  position: relative;
-  top:-75rpx;
-  left:550rpx;
+ 
 }
-
 .header text{
   display: flex;
   position: relative;
@@ -51,6 +44,49 @@ input{
   font-size: 20px;
   color: grey;
 }
+.container{
+display: flex;
+flex-direction: column;
+position: relative;
+z-index: 10;
+}
+.login_windows{
+  /* border: solid #489B81; */
+  border-radius: 10px;
+  background-color: white;
+  opacity: 0.75;
+  width: 90vw;
+  height: 235px;
+  padding: 5px;
+  overflow: hidden;
+  backdrop-filter: saturate(180%) blur(20px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* box-shadow: 1px 1px 1px  #489B81; */
+}
+
+.yonghu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 10px solid #489B81;
+  border-radius:30rpx
+}
+
+
+
+ .imageStyle {
+  width: 41rpx;
+  height: 41rpx;
+  position: relative;
+  top:-75rpx;
+  left:550rpx;
+}
+
+
+
 
 
 

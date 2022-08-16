@@ -1,17 +1,19 @@
 <!--pages/change/change.wxml-->
 <image class='background' src="{{src}}" mode="aspectFill"></image>
 <view class='header'>
-    <text>账户更改</text>
-  </view>
+  <text>WELCOME</text>
+</view>
+<view class='litheader'>
+  <text>账户更改</text>
+</view>
 <view class="container">
-  <view>
-<input  placeholder=" 请输入原密码" bindinput="getCode" placeholder-style="color:black;" ></input>
-<text>\n</text>
-<input  placeholder=" 请输入新密码" bindinput="newCode" placeholder-style="color:black;" ></input>
-<text>\n</text>
-<input  placeholder=" 请再次输入新密码" bindinput="changeCode" placeholder-style="color:black;" ></input>
+  <view class="login_windows">
+    <input placeholder=" 请输入原密码" bindinput="getCode" placeholder-style="color:glay;"></input>
+    <text space="ensp"> </text>
+    <input placeholder=" 请输入新密码" bindinput="newCode" placeholder-style="color:glay;"></input>
+    <input placeholder=" 请再次输入新密码" bindinput="changeCode" placeholder-style="color:glay;"></input>
+    <button type="primary" bindtap="UpData"> 修改密码</button>
+    
+    <button type="default" bindtap="Jump">取消修改</button>
+  </view>
 </view>
-</view>
-<button type="primary" bindtap="UpData"> 修改密码</button>
-<text>\n</text>
-<button type="default" bindtap="Jump">取消修改</button>

@@ -9,8 +9,11 @@
   width: 740rpx;
   height:60rpx;
   box-shadow: 0 0 30rpx rgba(0, 0, 0, 0.15);
-  border-radius: 30rpx;
+  border-radius: 10rpx;
   margin-left: 5rpx;
+  font-style: normal;
+  font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+  font-size: smaller;
 }
 .add{
   display: flex;
@@ -43,4 +46,8 @@ top: 10rpx;
   position:fixed; 
   background-size:100% 100%;
   z-index: -1;
+}
+.watch{
+  padding: 3px;
+  border-radius: 20%;
 }

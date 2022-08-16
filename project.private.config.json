@@ -84,12 +84,6 @@
           "scene": null
         },
         {
-          "name": "pages/test2/test2",
-          "pathName": "pages/test2/test2",
-          "query": "",
-          "scene": null
-        },
-        {
           "name": "pages/explanation/explanation",
           "pathName": "pages/explanation/explanation",
           "query": "",
@@ -108,15 +102,23 @@
           "scene": null
         },
         {
-          "name": "pages/demo2/demo2",
-          "pathName": "pages/demo2/demo2",
+          "name": "pages/change/change",
+          "pathName": "pages/change/change",
           "query": "",
           "scene": null
         },
         {
-          "name": "pages/change/change",
-          "pathName": "pages/change/change",
+          "name": "",
+          "pathName": "pages/login/login",
           "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/person/person",
+          "query": "",
+          "launchMode": "default",
           "scene": null
         }
       ]

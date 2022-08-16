@@ -41,6 +41,8 @@
   justify-content: center;
   position: relative;
   top: 50rpx;
+  font-size: small;
+  font-weight:600;
 }
 .container{
   position: relative;
@@ -50,5 +52,7 @@
 .image{
   position: absolute;
   top: 250px;
+  font-size: smaller;
+  font-weight:600;
 }
 
